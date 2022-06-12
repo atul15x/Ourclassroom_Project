@@ -33,6 +33,9 @@
 			font-family: 'Teko', sans-serif;
 			font-size: 22px;
 		}
+		body{
+			background-image: url(./img/Bg.jpg);
+		}
 	</style>
 </head>
 <body>
@@ -60,7 +63,7 @@
 </nav>
 
 <main role="main" class="container">
-  <div class="jumbotron">
+  <div class="jumbotron" style="background: aliceblue;border: 2px solid black;">
     <h1 style="font-family: 'Dancing Script', cursive;">HI!!...<?php echo $profile_result['name']; ?></h1>
     <hr>
     <table class="table table-borderless table-lg">

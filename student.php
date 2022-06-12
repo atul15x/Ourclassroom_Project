@@ -19,7 +19,9 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
 	<link href="https://fonts.font.im/css?family=Dancing+Script" rel="stylesheet">
 	<style type="text/css">
-
+		body{
+			background-image: url(./img/Bg.jpg);
+		}
 	</style>
 </head>
 <body>
@@ -47,7 +49,7 @@
 </nav>
 
 <main role="main" class="container">
-  <div class="jumbotron">
+  <div class="jumbotron" style="background: aliceblue;border: 2px solid black;">
     <h1 style="font-family: 'Dancing Script', cursive;">All Student..</h1>
     <hr>
     <div class="table-responsive">

@@ -66,10 +66,13 @@
     }
     .cmt
     {
-      border: 1px solid black;
+      border: 2px solid black;
       width: 80%;
       padding: 20px;
     }
+    body{
+			background-image: url(./img/Bg.jpg);
+		}
   </style>
 </head>
 <body>
@@ -97,7 +100,7 @@
 </nav>
 
 <main role="main" class="container">
-  <div class="jumbotron">
+  <div class="jumbotron" style="background: aliceblue;border: 2px solid black;">
     <h1 style="font-family: 'Dancing Script', cursive;">HI!!...<?php echo $profile_result['name']; ?></h1>
     <hr>
     <?php 
